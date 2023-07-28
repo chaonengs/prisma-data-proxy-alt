@@ -1,7 +1,7 @@
 {
-  "name": "prisma-data-proxy-alt",
+  "name": "prisma-data-proxy-alt-mod",
   "description": "This is a library to alternate and self-host the [Prisma Data Proxy (cloud.prisma.io)](https://www.prisma.io/docs/concepts/data-platform/data-proxy).",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -10,12 +10,12 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/aiji42/prisma-data-proxy-alt",
+  "homepage": "https://github.com/chaonengs/prisma-data-proxy-alt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aiji42/prisma-data-proxy-alt"
+    "url": "https://github.com/chaonengs/prisma-data-proxy-alt"
   },
-  "author": "Aiji Uejima <aiji42@gmail.com> (https://twitter.com/aiji42_dev)",
+  "author": "Chaoneng",
   "license": "MIT",
   "scripts": {
     "dev:server": "ts-node-dev src/server.ts",
@@ -34,13 +34,13 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
-    "@prisma/client": "^4.0.0",
+    "@prisma/client": "^4.15.0",
     "@tsconfig/node16": "^1.0.3",
     "c8": "^7.11.3",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "prisma": "^4.0.0",
+    "prisma": "^4.15.0",
     "semantic-release": "^19.0.3",
     "ts-node": "^10.8.2",
     "ts-node-dev": "^2.0.0",
@@ -49,10 +49,10 @@
     "zx": "^7.0.7"
   },
   "peerDependencies": {
-    "@prisma/client": ">=4.0.0"
+    "@prisma/client": ">=4.15.0"
   },
   "dependencies": {
-    "@prisma/sdk": "^4.0.0",
+    "@prisma/internals": "^4.15.0",
     "apollo-server-express": "^3.8.2",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
